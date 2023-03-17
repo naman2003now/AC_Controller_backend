@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.send("Fuck You");
 })
 
-app.POST("/", (req, res) => {
+app.post("/", (req, res) => {
   res.send("Fuck You");
 })
 
