@@ -13,3 +13,5 @@ const port = process.env.PORT || 6969;
 app.listen(process.env.PORT || 6969, () => {
   console.log("Listening on port: " + port);
 })
+
+module.exports = app;
