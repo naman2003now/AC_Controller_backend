@@ -6,11 +6,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Fuck You");
-})
-
-app.post("/", (req, res) => {
-  res.send("Fuck You");
+  res.send("24");
 })
 
 const port = process.env.PORT || 6969;
