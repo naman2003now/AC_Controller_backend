@@ -9,7 +9,7 @@ let x = 0;
 
 app.get("/", (req, res) => {
   console.log(`Requested for temperature ${x++} times`);
-  res.send("24");
+  res.send("28");
 })
 
 const port = process.env.PORT || 6969;
