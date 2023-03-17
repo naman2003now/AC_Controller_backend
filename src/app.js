@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.send("Fuck You");
 })
 
-const port = process.eng.PORT || 6969;
+const port = process.env.PORT || 6969;
 app.listen(process.env.PORT || 6969, () => {
   console.log("Listening on port: " + port);
 })
