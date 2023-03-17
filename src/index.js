@@ -9,6 +9,10 @@ app.get("/", (req, res) => {
   res.send("Fuck You");
 })
 
+app.POST("/", (req, res) => {
+  res.send("Fuck You");
+})
+
 const port = process.env.PORT || 6969;
 app.listen(process.env.PORT || 6969, () => {
   console.log("Listening on port: " + port);
