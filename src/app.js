@@ -8,6 +8,8 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send("Fuck You");
 })
-app.listen(process.env.PORT || 6969, () => {
 
+const port = process.eng.PORT || 6969;
+app.listen(process.env.PORT || 6969, () => {
+  console.log("Listening on port: " + port);
 })
