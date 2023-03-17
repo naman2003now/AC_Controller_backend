@@ -5,7 +5,10 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+let x = 0;
+
 app.get("/", (req, res) => {
+  console.log(`Requested for temperature ${x++} times`);
   res.send("24");
 })
 
